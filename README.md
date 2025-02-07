@@ -27,6 +27,17 @@ churn/
 - Outliers were identified and managed using standard deviation thresholds.
 - Jupyter Notebook (`Churn.ipynb`) contains outputs and visualizations illustrating these findings.
 
+### Churn_CLV.ipynb
+
+This notebook is used to understand and analyze the dataset in depth:
+
+- **Historical Analysis:** Extracts first and last observed transaction dates using `user_lifetime`.
+- **Understanding User Lifetime:** Provides insights into how long customers stay engaged before churning.
+- **Data Preprocessing:** Filters out invalid or redundant transaction records.
+- **Exploratory Data Analysis (EDA):** Uses visualization techniques to analyze data trends.
+- **Feature Selection:** Identifies key variables affecting churn prediction.
+
+
 ## Feature Importance
 
 - **Correlation Analysis:** Identified highly correlated features to avoid redundancy.
@@ -62,5 +73,3 @@ churn/
 - The models (Logistic Regression, Random Forest, XGBoost) can be used for predictions.
 - Use `test_with_csv_file.py` to input new data and predict churn probabilities using these models.
 - Before running unzip the models.zip
-
-
